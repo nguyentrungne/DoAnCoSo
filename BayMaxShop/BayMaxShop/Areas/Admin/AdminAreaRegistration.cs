@@ -18,7 +18,7 @@ namespace BayMaxShop.Areas.Admin
                 "Admin_default",
                 "Admin/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional },
-                namespaces: new[] { "BayMaxShop.Controllers" }
+                namespaces: new[] { "BayMaxShop.Areas.Admin.Controllers" }
             );
         }
     }
