@@ -20,6 +20,7 @@ namespace BayMaxShop.Models.EF
         public string Title { get; set; }
         public string Alias { get; set; }
         public string Description { get; set; }
+        [AllowHtml]
         public string Detail { get; set; }
         public int CategoryId { get; set; }
         public string SeoTitle { get; set; }
